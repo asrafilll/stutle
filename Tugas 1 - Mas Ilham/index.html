@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pertama Mas Ilham</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Poppins', sans-serif;
+            color: #141414;
+            font-size: 16px;
+        }
+
+        .mx-auto {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        footer {
+            margin-top: auto;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            padding: 8px 30px 8px 30px;
+            background-color: rgb(92, 92, 245);
+            border: 0;
+            box-shadow: 0px 4px 8px rgba(19, 19, 19, 0.5);
+            border-radius: 5px;
+            color: #fafafa;
+        }
+        .button:hover {
+            background-color: rgb(58, 58, 247);
+            cursor: pointer;
+            transition: 300ms;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="flex mt-5">
+            <!-- Logo -->
+            <div>
+            <span style="font-size: 1.75em; font-weight: bold;">Asrafil</span>
+            </div>
+            <!-- Navigasi -->
+            <div>
+                <nav style="font-size: 1em;">
+                    <a href="#" >Beranda</a>
+                    <a href="#" >Profil</a>
+                    <a href="#" >Hubungi Saya</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <article class="mx-auto" style="text-align: center; margin-top:150px; width: 600px;">
+   
+        <h2 style="margin-bottom:10px; color: #3e2fc0; font-size: 2em;">Form Registrasi Siswa Baru</h2>
+        <p>Silahkan mengisi data berikut dengan jujur dan sebenar-benarnya</p>
+   
+        <table class="mx-auto mt-5" style="text-align: left;">
+            <tr style="line-height:30px">
+                <td>
+                    <label for="user-name">Name Lengkap</td>
+                    <td>:</td>
+                    </label>
+                <td>
+                    <input type="text" id="user-name" name="user-name"><br>
+                </td>
+            </tr>
+
+            <tr style="line-height:30px">
+                <td>
+                    <label for="user-age">Usia</td>
+                    <td>:</td>
+                    </label>
+                <td>
+                    <input type="text" id="user-age" name="user-age"><br>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit" class="button mt-5">
+    </form>
+    </article>
+
+    <footer>
+        <div class="flex mt-5">
+            <!-- Logo -->
+            <div>
+            <span style="font-size: 12px;">Designed by Asrafil</span>
+            </div>
+            <!-- Navigasi -->
+            <div>
+            <span style="font-size: 12px;"> Copright 2021 - All Rights Reserved</span>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

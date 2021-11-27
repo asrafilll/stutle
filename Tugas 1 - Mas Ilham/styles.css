@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mt-5 {
+    margin-top: 20px;
+}
+
+a { 
+    text-decoration: none;
+    color: #141414;
+    padding-left: 20px;
+}
+
+a:hover { 
+    text-decoration: none;
+    color: #3e2fc0;
+    padding-left: 20px;
+}
+
+.px-5 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
